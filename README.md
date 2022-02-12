@@ -33,11 +33,11 @@ Building and Running the Docker images.
     docker compose up
 
     ```
+Enable listener for debugging
 4. Enable listener for PHP Debugging  
     ![alt text](https://github.com/brumarq/brumarq.github.io/blob/images/assets/php_xdebug/activate_listener.PNG?raw=true)  
     Feel free to also check ``` Break at first line in PHP scripts ``` below. This will run the debugger right at the first line of code.  
     You can also put a breakpoint in ``` index.php ```  
-    
 5. Make request to the API such as ``` http://localhost/user/getUsers ``` using your browser or any other tool.
 6. The following window should appear:  
     ![alt text](https://github.com/brumarq/brumarq.github.io/blob/images/assets/php_xdebug/incoming_connection.PNG?raw=true)  
